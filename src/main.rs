@@ -4,14 +4,13 @@ fn hello() {
     println!("Hello, world! My name is {}!", my_name);
 }
 
-fn add () {
-    let x = 5;
-    let y = 10;
-    let sum = x + y;
-    println!("The sum of {} and {} is {}.", x, y, sum);
+fn add (num_one: i32, num_two:i32) -> i32 {
+    let sum = num_one + num_two;
+    println!("The sum of {} and {} is {}.", num_one, num_two, sum);
+    return sum;
 }
 
 fn main() {
    hello();
-   add()
+   add(10,5);
 }
