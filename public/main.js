@@ -1,4 +1,14 @@
 async function init() {
+let rustApp = null;
+try {
+   rustApp = await import('../pkg');
+} catch (err) {
+   console.error(`Unexpected error in load rust app: ${err}`);
+   return;
+}
+
+console.log('Rust app loaded', rustApp);
+
 const input = document.getElementById('upload')
 const fileReader = new FileReader()
 
