@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "image-effects"
+name = "webassembly"
 version = "0.1.0"
