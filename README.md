@@ -1,4 +1,5 @@
 # Rust WebAssembly Gray Scale Image Converter
+
 https://webassembly-rust-two.vercel.app/
 
 This project demonstrates how to use Rust and WebAssembly to convert an image to grayscale within a web browser.
@@ -7,12 +8,13 @@ This project demonstrates how to use Rust and WebAssembly to convert an image to
 ## Prerequisites
 
 [Rust and Cargo installed](https://www.rust-lang.org/tools/install)
+
 [wasm-pack installed](https://rustwasm.github.io/wasm-pack/installer/)
+
 [npm installed](https://www.npmjs.com/get-npm)
 
 ## Getting Started
 
-You can download it from the Oracle [website](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 
 ### Clone the project
 
@@ -70,7 +72,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-- [Nomeos](https://github.com/Nomeos)
 - [robielcpnv](https://github.com/robielcpnv)
 
 
